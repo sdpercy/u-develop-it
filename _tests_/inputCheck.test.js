@@ -16,8 +16,3 @@ test('inputCheck() returns an object when a property is missing', () => {
   );
 });
 
-app.get('/', (req, res) => {
-  res.json({
-    message: 'Hello World'
-  });
-});
